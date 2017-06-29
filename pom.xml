@@ -52,17 +52,17 @@
 
 
 	<!-- 项目发布到私服 -->
-	<distributionManagement>
-		<!-- 两个ID必须与 setting.xml中的<server><id>nexus-releases</id></server>保持一致 -->
-		<repository>
-			<id>releases</id>
-			<url>http://localhost:8081/nexus/content/repositories/releases</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
+	<!--<distributionManagement>-->
+		<!--&lt;!&ndash; 两个ID必须与 setting.xml中的<server><id>nexus-releases</id></server>保持一致 &ndash;&gt;-->
+		<!--<repository>-->
+			<!--<id>releases</id>-->
+			<!--<url>http://localhost:8081/nexus/content/repositories/releases</url>-->
+		<!--</repository>-->
+		<!--<snapshotRepository>-->
+			<!--<id>snapshots</id>-->
+			<!--<url>http://localhost:8081/nexus/content/repositories/snapshots</url>-->
+		<!--</snapshotRepository>-->
+	<!--</distributionManagement>-->
 
 	<dependencies>
 		<!-- junit单元测试 -->
